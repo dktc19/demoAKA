@@ -1,0 +1,16 @@
+{
+  "uuid": "9eae9902-85ce-430b-9e24-124eb05bf71d",
+  "driverCapabilities": {},
+  "CAPABILITY": "android:androidOptions",
+  "caps": {
+    "deviceName": "Pixel_2_API_33",
+    "platformName": "Android",
+    "udid": "emulator-5554",
+    "appPackage": "ftel.isc.mobisalevn",
+    "appActivity": "flutter.mobisale.mobsale_ver4_new.MainActivity",
+    "deviceReadyTimeout": "60",
+    "androidDeviceReadyTimeout": "60",
+    "newCommandTimeout": "240",
+    "automationName": "UiAutomator2"
+  }
+}

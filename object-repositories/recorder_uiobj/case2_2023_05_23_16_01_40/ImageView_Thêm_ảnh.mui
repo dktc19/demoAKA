@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.widget.ImageView[2]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Accessibility ID",
+      "value": "Thêm ảnh",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//android.widget.ImageView[@content-desc\u003d\u0027Thêm ảnh\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Image",
+      "value": "data:image/png;base64,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",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "c20e5d78-56ba-4ce8-9f62-716cc192c7f3"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "c20e5d78-56ba-4ce8-9f62-716cc192c7f3"
+}

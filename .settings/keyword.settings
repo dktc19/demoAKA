@@ -1,0 +1,14 @@
+{
+  "customCatalogs": [
+    {
+      "id": "1",
+      "name": "Web Keywords",
+      "platform": "Web",
+      "source": "internal",
+      "keywords": [
+        {"uuid":"cb816fab-f550-4cc4-9b02-1cc4805469a0","name":"test: String","platform":{"type":"Web"},"objRepo":[],"params":[],"output":{"name":"","type":"String","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"test","description":"---des---","failureDescription":"","enable":true,"captureImg":false}
+      ]
+    }
+  ],
+  "afterTcKws": []
+}

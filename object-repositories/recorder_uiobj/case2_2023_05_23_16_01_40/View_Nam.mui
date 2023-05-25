@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Accessibility ID",
+      "value": "Nam",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//android.view.View[@content-desc\u003d\u0027Nam\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Image",
+      "value": "data:image/png;base64,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\u003d\u003d",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "f718f661-a53f-4693-9273-95b0f64cf835"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "f718f661-a53f-4693-9273-95b0f64cf835"
+}

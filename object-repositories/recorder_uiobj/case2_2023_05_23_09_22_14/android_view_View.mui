@@ -1,0 +1,30 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Image",
+      "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAYAAADiI6WIAAADIElEQVR4Xu3bUVEcQRRG4ZWABCQgAQk4AAfgAByAA3CABCQgAQlI2ORf0hVyd6eHytvcc07VfQmTB/aDpbd7Zrc3ZLv6D8ZIeGjCQxMemvDQhIcmPDThoQkPTXhowkMTHprw0ISHJjw04aEJD014aMJDEx6a8NCEhyY8NOGhCQ9NeGjCQxMemvDQhIcmPDThoQkPTXhowkMTHprw0IRf6ePjY395ebk/Ozs7zMPDQ71kkwm/0sXFxX632/0zb29v9bLNJfyk/HZX9Mzt7W29dHMJv9DT09MR+Jjn5+d6+eYS/kTv7+9H2GPOz8/3n5+f9b9sLuFLWcwFt4IP9Hy9Q8KXltAzr6+v9fLNJvy37u7ujrDH3N/f18s3nfB/WlrBZzqs4mvC/y5v4RV7TJfFXA0PT1nM1dDw+U1eQs/kY13X0PBXV1dH2GMeHx/r5a3CwtMWczUkfLZcK/aYHMoQwsFnsZbj1Qqe6byYq6HgZyv4/DBQ0BMK/tTZ+pjui7kaBn62mOu2HfuTEPCzs/V8pCPWHn7tbJ30d/17reFdzC3XGn4JfcDn66TJ4nbcJdwWfna2Tp/Da1NfsC7Vb9b5O4cNrPqCdWlpd87ZHd7228JnQ6Z+w87XZN+iLXyaHbvmHSGPRpEmr8d4JqA1/NqNFh0ehfrfWsMnT+NO1x4+5Te7oo/JZ9uON1OuhYBPhwXNCfjMzc1Nvbx9GPh0fX19hD6my3PvPw0Fn7f02Zk8abGHgk8e3HyFg09rR7WExR4SPs129gg3Z2DhU+6fr+hjui/20PApW5kVfczLy0u9vE14+LXFXtfn5/DwKbizbd2Oiz3h/zR7rCp/Drol/Ldm27q5XalTwpdmZ/idnrYRvrR2ht9lsSf8idbO8Dss9oRfaHaG3+EtX/hJS4u9Dg9ZCr/SqTP8Did4wv+g7OnnHD+f57uc2QsPTXhowkMTHprw0ISHJjw04aEJD014aMJDEx6a8NCEhyY8NOGhCQ9NeGjCQxMemvDQhIcmPDThoQkPTXhowkMTHprw0ISHJjw04aEJD014aMJDEx6a8NCEh/YLxOwAjHY4FcAAAAAASUVORK5CYII\u003d",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "8370438f-bcf9-4f85-828d-f99ca8e07eb0"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "8370438f-bcf9-4f85-828d-f99ca8e07eb0"
+}

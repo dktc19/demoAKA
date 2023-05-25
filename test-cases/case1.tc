@@ -1,0 +1,203 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "9c68eab0-a3c1-4076-82ac-4bd83dea246c"
+  },
+  "platform": {
+    "type": "Mobile",
+    "displayName": "Mobile"
+  },
+  "setUpList": [],
+  "stepList": [
+    {
+      "uuid": "1f8c8bb6-7d46-4488-a281-4c2ebc49e758",
+      "name": "Start Mobile Automation",
+      "platform": {
+        "type": "Mobile"
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "35",
+      "keywordSource": "internal",
+      "keywordMethod": "startMobileAutomation",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "13cf7ee7-7cf7-4bfa-bc2d-e0599fb1f51e",
+      "name": "Start Mobile Automation",
+      "platform": {
+        "type": "Mobile",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "35",
+      "keywordSource": "internal",
+      "keywordMethod": "startMobileAutomation",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "c939fed1-57e2-4d5b-9d31-bdbf75e6cf28",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "bf4e69a3-8974-421d-84f6-cad946261653",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "QC.NhuDTH5",
+          "source": ""
+        },
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10000",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "60",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "f4c5915e-5623-408e-8e8f-8d0957c3ddba",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "c24ef683-8bb7-4cec-85de-749ef6089290",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "Spf123",
+          "source": ""
+        },
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "60",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "ef2f052d-ebcc-468b-97e5-03c8b63794a2",
+      "name": "Click",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "2e45a5ef-ad1d-4c36-a276-f8af0ca21cfa",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "59",
+      "keywordSource": "internal",
+      "keywordMethod": "click",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "9c68eab0-a3c1-4076-82ac-4bd83dea246c"
+}

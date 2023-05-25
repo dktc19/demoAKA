@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.view.View[2]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Accessibility ID",
+      "value": "Nam",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//android.view.View[@content-desc\u003d\u0027Nam\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Image",
+      "value": "data:image/png;base64,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\u003d",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "9c06b334-58e5-48dc-889d-2fd6367c879a"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "9c06b334-58e5-48dc-889d-2fd6367c879a"
+}

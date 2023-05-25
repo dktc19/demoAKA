@@ -1,0 +1,37 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Accessibility ID",
+      "value": "Thanh toán",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Image",
+      "value": "data:image/png;base64,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\u003d\u003d",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "015a9787-1aaa-41b4-b41b-caab05df1ccb"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "015a9787-1aaa-41b4-b41b-caab05df1ccb"
+}
