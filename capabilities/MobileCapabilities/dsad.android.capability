@@ -8,10 +8,9 @@
     "udid": "emulator-5554",
     "appPackage": "ftel.isc.mobisalevn",
     "appActivity": "flutter.mobisale.mobsale_ver4_new.MainActivity",
-    "deviceReadyTimeout": "300",
-    "androidDeviceReadyTimeout": "300",
+    "deviceReadyTimeout": "60",
+    "androidDeviceReadyTimeout": "60",
     "newCommandTimeout": "240",
-    "automationName": "UiAutomator2",
-    "appWaitForLaunch": true
+    "automationName": "UiAutomator2"
   }
 }
