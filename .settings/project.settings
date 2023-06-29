@@ -13,7 +13,7 @@
       "colorCode": "#52c41a",
       "profile": {
         "configCapability": {
-          "Browser": "android"
+          "OS": "android"
         }
       }
     }
