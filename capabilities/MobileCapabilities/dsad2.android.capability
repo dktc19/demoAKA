@@ -8,9 +8,9 @@
     "udid": "",
     "appPackage": "",
     "appActivity": "",
-    "deviceReadyTimeout": "60",
-    "androidDeviceReadyTimeout": "60",
-    "newCommandTimeout": "240",
+    "deviceReadyTimeout": "300",
+    "androidDeviceReadyTimeout": "300",
+    "newCommandTimeout": "300",
     "automationName": "UiAutomator2"
   }
 }
