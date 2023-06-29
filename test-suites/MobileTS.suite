@@ -1,0 +1,41 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "309eadb4-f542-42ba-a481-e2b77587d107",
+      "disable": false,
+      "caseUUID": "9c68eab0-a3c1-4076-82ac-4bd83dea246c",
+      "runProfile": {
+        "platformType": "Mobile",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "78ca63b6-43db-49d1-95dc-023175d61411",
+          "name": "Round 1",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "test"
+              ],
+              "dataTable": [
+                [
+                  ""
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Mobile",
+  "uuid": "f6ad629a-7ef8-4dbd-8429-b3c4c7f8c439"
+}

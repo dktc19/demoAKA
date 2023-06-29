@@ -1,0 +1,10 @@
+{
+  "suiteMapping": {
+    "f6ad629a-7ef8-4dbd-8429-b3c4c7f8c439": [
+      {"roundBindingId":"309eadb4-f542-42ba-a481-e2b77587d107","tcId":"9c68eab0-a3c1-4076-82ac-4bd83dea246c","dataId":"","selectedRowKey":[],"testCaseVariableBinding":[{"name":"test","source":"Default","value":""}],"roundNameSource":"Default","roundName":""}
+    ],
+    "91e2de3d-6fb3-4b29-8145-1c930ac00a10": [
+      {"roundBindingId":"7105e317-e4a2-4b1a-9f72-4a71e867889b","tcId":"caf9aa0b-3adf-4348-930b-4f14115b1036","dataId":"","selectedRowKey":[],"testCaseVariableBinding":[],"roundNameSource":"Default","roundName":""}
+    ]
+  }
+}

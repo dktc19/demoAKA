@@ -1,0 +1,153 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {
+          "test": {
+            "descendants": {},
+            "value": "\u003c?xml version\u003d\u00271.0\u0027 encoding\u003d\u0027UTF-8\u0027 standalone\u003d\u0027yes\u0027 ?\u003e\r\n\u003chierarchy index\u003d\"0\" class\u003d\"hierarchy\" rotation\u003d\"0\" width\u003d\"1080\" height\u003d\"1776\"\u003e\r\n  \u003candroid.widget.FrameLayout index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.FrameLayout\" text\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n    \u003candroid.widget.LinearLayout index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.LinearLayout\" text\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n      \u003candroid.widget.FrameLayout index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.FrameLayout\" text\u003d\"\" resource-id\u003d\"android:id/content\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n        \u003candroid.widget.FrameLayout index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.FrameLayout\" text\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n          \u003candroid.widget.FrameLayout index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.FrameLayout\" text\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n            \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n              \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                  \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,0][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                    \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,84][144,228]\" displayed\u003d\"true\" /\u003e\r\n                    \u003candroid.view.View index\u003d\"1\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"Theo dõi đơn hàng\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[323,128][758,185]\" displayed\u003d\"true\" /\u003e\r\n                    \u003candroid.view.View index\u003d\"2\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[54,240][1026,387]\" displayed\u003d\"true\"\u003e\r\n                      \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"Bán mới\u0026#10;Tab 1 trong tổng số 3\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"true\" bounds\u003d\"[54,240][378,387]\" displayed\u003d\"true\" /\u003e\r\n                      \u003candroid.view.View index\u003d\"1\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"Bán thêm\u0026#10;Tab 2 trong tổng số 3\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[378,240][702,387]\" displayed\u003d\"true\" /\u003e\r\n                      \u003candroid.view.View index\u003d\"2\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"Tất cả\u0026#10;Tab 3 trong tổng số 3\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[702,240][1026,387]\" displayed\u003d\"true\" /\u003e\r\n                    \u003c/android.view.View\u003e\r\n                    \u003candroid.view.View index\u003d\"3\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,389][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                      \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"true\" selected\u003d\"false\" bounds\u003d\"[0,389][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                        \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,389][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                          \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[0,389][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                            \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"true\" selected\u003d\"false\" bounds\u003d\"[0,389][1080,1776]\" displayed\u003d\"true\"\u003e\r\n                              \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[54,443][1026,938]\" displayed\u003d\"true\"\u003e\r\n                                \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,497][972,884]\" displayed\u003d\"true\"\u003e\r\n                                  \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,497][972,884]\" displayed\u003d\"true\"\u003e\r\n                                    \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"ĐỜI CẦN\u0026#10;Xác nhận OK\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,497][972,563]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.widget.ImageView index\u003d\"1\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.ImageView\" text\u003d\"\" content-desc\u003d\"Internet\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,590][972,722]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.view.View index\u003d\"2\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"HCMH9CFQXPVR\u0026#10;SGAAS5574\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,749][972,803]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.view.View index\u003d\"3\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"0834849123\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,830][972,884]\" displayed\u003d\"true\" /\u003e\r\n                                  \u003c/android.view.View\u003e\r\n                                \u003c/android.view.View\u003e\r\n                              \u003c/android.view.View\u003e\r\n                              \u003candroid.view.View index\u003d\"1\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[54,965][1026,1460]\" displayed\u003d\"true\"\u003e\r\n                                \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1019][972,1406]\" displayed\u003d\"true\"\u003e\r\n                                  \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1019][972,1406]\" displayed\u003d\"true\"\u003e\r\n                                    \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"ĐỜI CẦN\u0026#10;Xác nhận OK\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1019][972,1085]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.widget.ImageView index\u003d\"1\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.ImageView\" text\u003d\"\" content-desc\u003d\"Internet\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1112][972,1244]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.view.View index\u003d\"2\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"HCMH9CFM28MZ\u0026#10;SGAAS5573\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1271][972,1325]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.view.View index\u003d\"3\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"0834849123\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1352][972,1406]\" displayed\u003d\"true\" /\u003e\r\n                                  \u003c/android.view.View\u003e\r\n                                \u003c/android.view.View\u003e\r\n                              \u003c/android.view.View\u003e\r\n                              \u003candroid.view.View index\u003d\"2\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[54,1487][1026,1776]\" displayed\u003d\"true\"\u003e\r\n                                \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1541][972,1776]\" displayed\u003d\"true\"\u003e\r\n                                  \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"false\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1541][972,1776]\" displayed\u003d\"true\"\u003e\r\n                                    \u003candroid.view.View index\u003d\"0\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.view.View\" text\u003d\"\" content-desc\u003d\"ĐỜI CẦN\u0026#10;Xác nhận OK\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1541][972,1607]\" displayed\u003d\"true\" /\u003e\r\n                                    \u003candroid.widget.ImageView index\u003d\"1\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.ImageView\" text\u003d\"\" content-desc\u003d\"Internet\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"false\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[108,1634][972,1766]\" displayed\u003d\"true\" /\u003e\r\n                                  \u003c/android.view.View\u003e\r\n                                \u003c/android.view.View\u003e\r\n                              \u003c/android.view.View\u003e\r\n                            \u003c/android.view.View\u003e\r\n                          \u003c/android.view.View\u003e\r\n                        \u003c/android.view.View\u003e\r\n                      \u003c/android.view.View\u003e\r\n                    \u003c/android.view.View\u003e\r\n                    \u003candroid.widget.Button index\u003d\"4\" package\u003d\"ftel.isc.mobisalevn\" class\u003d\"android.widget.Button\" text\u003d\"\" resource-id\u003d\"\" checkable\u003d\"false\" checked\u003d\"false\" clickable\u003d\"true\" enabled\u003d\"true\" focusable\u003d\"true\" focused\u003d\"false\" long-clickable\u003d\"false\" password\u003d\"false\" scrollable\u003d\"false\" selected\u003d\"false\" bounds\u003d\"[864,1560][1032,1728]\" displayed\u003d\"true\" /\u003e\r\n                  \u003c/android.view.View\u003e\r\n                \u003c/android.view.View\u003e\r\n              \u003c/android.view.View\u003e\r\n            \u003c/android.view.View\u003e\r\n          \u003c/android.widget.FrameLayout\u003e\r\n        \u003c/android.widget.FrameLayout\u003e\r\n      \u003c/android.widget.FrameLayout\u003e\r\n    \u003c/android.widget.LinearLayout\u003e\r\n  \u003c/android.widget.FrameLayout\u003e\r\n\u003c/hierarchy\u003e"
+          }
+        }
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {
+          "pageSource": {
+            "descendants": {},
+            "value": ""
+          },
+          "ma_don_hang": {
+            "descendants": {},
+            "value": ""
+          },
+          "testdataobj": {
+            "descendants": {},
+            "value": ""
+          }
+        }
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "0a7f73db-55ec-4a63-ad84-40f8760c88d7"
+  },
+  "platform": {
+    "type": "Mobile",
+    "displayName": "Mobile"
+  },
+  "setUpList": [],
+  "stepList": [
+    {
+      "uuid": "a7cb81b2-db1a-46d8-a51b-ab614cafaff7",
+      "name": "getPageSource: String",
+      "platform": {
+        "type": "Random",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "`$.this.OUTPUT.pageSource`",
+        "type": "String",
+        "defaultValue": ""
+      },
+      "keywordPath": "224e73f9-52d4-490b-a990-16692975d0b5",
+      "keywordSource": "custom",
+      "keywordMethod": "getPageSource",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "d6244671-defa-4e0e-bcbf-7d8d25fcd048",
+      "name": "Get All Node Attribute Values From Xml String",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xmlString",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.pageSource`",
+          "source": ""
+        },
+        {
+          "name": "xpath",
+          "type": "String",
+          "defaultValue": "//*[@class\u003d\u0027android.widget.EditText\u0027]",
+          "source": ""
+        },
+        {
+          "name": "attributeName",
+          "type": "String",
+          "defaultValue": "text",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "$.this.OUTPUT.testdataobj",
+        "type": "TestDataObject",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "18",
+      "keywordSource": "internal",
+      "keywordMethod": "getAllNodeAttributeValuesFromXmlString",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "019ec882-7efd-40dd-8d19-a73ddc1395dd",
+      "name": "Get All Node Text Contents From Xml String",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xmlString",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.pageSource`",
+          "source": ""
+        },
+        {
+          "name": "xpath",
+          "type": "String",
+          "defaultValue": "//hierarchy",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "$.this.OUTPUT.testdataobj",
+        "type": "TestDataObject",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "16",
+      "keywordSource": "internal",
+      "keywordMethod": "getAllNodeTextContentsFromXmlString",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    }
+  ],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "0a7f73db-55ec-4a63-ad84-40f8760c88d7"
+}

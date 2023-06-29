@@ -20,7 +20,39 @@
     "type": "Web",
     "displayName": "Web"
   },
-  "setUpList": [],
+  "setUpList": [
+    {
+      "uuid": "13a4b51a-48f5-4e32-aab1-0ed9ea811f99",
+      "name": "getElementWithImage: void",
+      "platform": {
+        "type": "Random",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "Repo1",
+          "type": "UIObject",
+          "defaultValue": "bf4e69a3-8974-421d-84f6-cad946261653",
+          "source": ""
+        }
+      ],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "9890766d-0b92-4943-8881-7325a3d262ee",
+      "keywordSource": "custom",
+      "keywordMethod": "getElementWithImage",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
   "stepList": [],
   "tearDownList": [],
   "managerId": "",

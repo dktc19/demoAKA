@@ -2,13 +2,45 @@
   "varNode": {
     "descendants": {
       "INPUT": {
-        "descendants": {}
+        "descendants": {
+          "test": {
+            "descendants": {},
+            "value": ""
+          }
+        }
       },
       "REPO": {
-        "descendants": {}
+        "descendants": {
+          "recorder_uiobj": {
+            "descendants": {
+              "Mobi": {
+                "descendants": {
+                  "list_don_hang": {
+                    "descendants": {
+                      "indexItem": {
+                        "descendants": {},
+                        "value": ""
+                      }
+                    },
+                    "value": "25431585-6be9-42ba-8e69-ba6fb65774b7"
+                  }
+                }
+              }
+            }
+          }
+        }
       },
       "OUTPUT": {
-        "descendants": {}
+        "descendants": {
+          "pageSource": {
+            "descendants": {},
+            "value": ""
+          },
+          "ma_don_hang": {
+            "descendants": {},
+            "value": ""
+          }
+        }
       },
       "KEYWORD": {
         "descendants": {}
@@ -40,8 +72,7 @@
       "keywordSource": "internal",
       "keywordMethod": "startMobileAutomation",
       "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
-      "enable": true,
+      "enable": false,
       "captureImg": false
     },
     {
@@ -63,7 +94,115 @@
       "keywordSource": "internal",
       "keywordMethod": "startMobileAutomation",
       "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "5d465e56-5771-46f4-8007-dc0c142bed05",
+      "name": "Wait For Element Visible",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "bf4e69a3-8974-421d-84f6-cad946261653",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10000",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "Boolean",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "97",
+      "keywordSource": "internal",
+      "keywordMethod": "waitForElementVisible",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "75117513-54b1-4f41-97ca-fd65ad80b4eb",
+      "name": "OCR Extract Text From Image ",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "47555f6c-a424-4ae3-8570-f4725edbe35f",
+      "keywordSource": "custom",
+      "keywordMethod": "extractTextFromImage",
+      "description": "",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "b6afaf5e-d0c2-4579-a898-f38c34afbcfc",
+      "name": "Click OCR By Text",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "Param1",
+          "type": "String",
+          "defaultValue": "Tài khoản Mobisale",
+          "source": ""
+        },
+        {
+          "name": "Param2",
+          "type": "Integer",
+          "defaultValue": "2",
+          "source": ""
+        },
+        {
+          "name": "Param3",
+          "type": "Integer",
+          "defaultValue": "0",
+          "source": ""
+        },
+        {
+          "name": "Param4",
+          "type": "Integer",
+          "defaultValue": "50",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "62fe8288-9b7a-431f-bb98-1557e91e6b2a",
+      "keywordSource": "custom",
+      "keywordMethod": "ClickOCRByText",
+      "description": "",
+      "failureDescription": "",
       "enable": true,
       "captureImg": false
     },
@@ -107,7 +246,102 @@
       "keywordSource": "internal",
       "keywordMethod": "sendKeys",
       "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "48e658ec-ecc2-41df-9a0f-54b6d2ca1103",
+      "name": "Click OCR By White Text",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "Param1",
+          "type": "String",
+          "defaultValue": "Mật khẩu",
+          "source": ""
+        },
+        {
+          "name": "Param2",
+          "type": "Integer",
+          "defaultValue": "2",
+          "source": ""
+        },
+        {
+          "name": "Param3",
+          "type": "Integer",
+          "defaultValue": "0",
+          "source": ""
+        },
+        {
+          "name": "Param4",
+          "type": "Integer",
+          "defaultValue": "50",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "3e2a37c4-4c86-4f42-9eb3-e451cda5cff6",
+      "keywordSource": "custom",
+      "keywordMethod": "ClickOCRByWhiteText",
+      "description": "",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "013fef8c-d77e-4c65-a89b-2fbe34657c6a",
+      "name": "Click OCR By Text",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "Param1",
+          "type": "String",
+          "defaultValue": "mật khẩu",
+          "source": ""
+        },
+        {
+          "name": "Param2",
+          "type": "Integer",
+          "defaultValue": "2",
+          "source": ""
+        },
+        {
+          "name": "Param3",
+          "type": "Integer",
+          "defaultValue": "0",
+          "source": ""
+        },
+        {
+          "name": "Param4",
+          "type": "Integer",
+          "defaultValue": "50",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "62fe8288-9b7a-431f-bb98-1557e91e6b2a",
+      "keywordSource": "custom",
+      "keywordMethod": "ClickOCRByText",
+      "description": "",
       "failureDescription": "",
       "enable": true,
       "captureImg": false
@@ -152,7 +386,6 @@
       "keywordSource": "internal",
       "keywordMethod": "sendKeys",
       "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",
       "enable": true,
       "captureImg": false
@@ -191,7 +424,650 @@
       "keywordSource": "internal",
       "keywordMethod": "click",
       "description": "",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "2517f719-0967-413e-9235-a6e55307ff3d",
+      "name": "Click OCR By White Text",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "Param1",
+          "type": "String",
+          "defaultValue": "Đăng nhập",
+          "source": ""
+        },
+        {
+          "name": "Param2",
+          "type": "Integer",
+          "defaultValue": "2",
+          "source": ""
+        },
+        {
+          "name": "Param3",
+          "type": "Integer",
+          "defaultValue": "1",
+          "source": ""
+        },
+        {
+          "name": "Param4",
+          "type": "Integer",
+          "defaultValue": "50",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "3e2a37c4-4c86-4f42-9eb3-e451cda5cff6",
+      "keywordSource": "custom",
+      "keywordMethod": "ClickOCRByWhiteText",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "f1242571-2988-46f8-bc4a-f087e2ab9a49",
+      "name": "Wait For Element Visible",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "ee1f0b35-b93d-444e-8d06-52a9e75d057a",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10000",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "Boolean",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "97",
+      "keywordSource": "internal",
+      "keywordMethod": "waitForElementVisible",
+      "description": "",
       "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "c122ffd2-2d43-4e2b-848c-918ea58a9587",
+      "name": "Click",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "ee1f0b35-b93d-444e-8d06-52a9e75d057a",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "59",
+      "keywordSource": "internal",
+      "keywordMethod": "click",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "5391037d-ff4d-4725-a203-77f13c6e2c9b",
+      "name": "Wait For Element Visible",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "bca6a384-4067-4b9e-81fc-8616c70c4d8c",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10000",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "Boolean",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "97",
+      "keywordSource": "internal",
+      "keywordMethod": "waitForElementVisible",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "a7cb81b2-db1a-46d8-a51b-ab614cafaff7",
+      "name": "getPageSource: String",
+      "platform": {
+        "type": "Random",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "`$.this.OUTPUT.pageSource`",
+        "type": "String",
+        "defaultValue": ""
+      },
+      "keywordPath": "224e73f9-52d4-490b-a990-16692975d0b5",
+      "keywordSource": "custom",
+      "keywordMethod": "getPageSource",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "d6244671-defa-4e0e-bcbf-7d8d25fcd048",
+      "name": "Get All Node Attribute Values From Xml String",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xmlString",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.pageSource`",
+          "source": ""
+        },
+        {
+          "name": "xpath",
+          "type": "String",
+          "defaultValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View",
+          "source": ""
+        },
+        {
+          "name": "attributeName",
+          "type": "String",
+          "defaultValue": "content-desc",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "TestDataObject",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "18",
+      "keywordSource": "internal",
+      "keywordMethod": "getAllNodeAttributeValuesFromXmlString",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "019ec882-7efd-40dd-8d19-a73ddc1395dd",
+      "name": "Get All Node Text Contents From Xml String",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xmlString",
+          "type": "String",
+          "defaultValue": "`$.this.OUTPUT.pageSource`",
+          "source": ""
+        },
+        {
+          "name": "xpath",
+          "type": "String",
+          "defaultValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "TestDataObject",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "16",
+      "keywordSource": "internal",
+      "keywordMethod": "getAllNodeTextContentsFromXmlString",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "9425e3b3-4a72-4cfe-818a-53d423f324d2",
+      "name": "getPageSource: void",
+      "platform": {
+        "type": "Random",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "cacf5c5c-d8b1-42b3-91ea-550813fc1702",
+      "keywordSource": "custom",
+      "keywordMethod": "getPageSource",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "81e3d0b6-8d89-435c-b92c-7b77fd3bc801",
+      "name": "Get All Node Attribute Values From Xml String",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xmlString",
+          "type": "String",
+          "defaultValue": "",
+          "source": ""
+        },
+        {
+          "name": "xpath",
+          "type": "String",
+          "defaultValue": "",
+          "source": ""
+        },
+        {
+          "name": "attributeName",
+          "type": "String",
+          "defaultValue": "",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "TestDataObject",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "18",
+      "keywordSource": "internal",
+      "keywordMethod": "getAllNodeAttributeValuesFromXmlString",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "ea478416-c634-4ad3-bd2d-0ecc49fdc3df",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "175",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "861",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "180",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "236",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "30a80b14-f40f-43f4-986f-853f956849a1",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "253",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "683",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "246",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "483",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "e14022ea-b6dc-4e1e-ab98-931350d85397",
+      "name": "For statement with data",
+      "platform": {
+        "type": "control",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "dataSource",
+          "type": "TestDataObject",
+          "defaultValue": "$.this.OUTPUT.ma_don_hang",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "27",
+      "keywordSource": "internal",
+      "keywordMethod": "",
+      "description": "",
+      "failureDescription": "",
+      "enable": true,
+      "executions": [
+        {
+          "uuid": "7568cdeb-fd54-4aff-b7ae-e6cf222c8552",
+          "name": "Swipe By Coordinate",
+          "platform": {
+            "type": "Mobile",
+            "displayName": "",
+            "capUUID": ""
+          },
+          "objRepo": [],
+          "params": [
+            {
+              "name": "xStart",
+              "type": "Integer",
+              "defaultValue": "170",
+              "source": ""
+            },
+            {
+              "name": "yStart",
+              "type": "Integer",
+              "defaultValue": "898",
+              "source": ""
+            },
+            {
+              "name": "xEnd",
+              "type": "Integer",
+              "defaultValue": "168",
+              "source": ""
+            },
+            {
+              "name": "yEnd",
+              "type": "Integer",
+              "defaultValue": "250",
+              "source": ""
+            }
+          ],
+          "output": {
+            "name": "",
+            "type": "void",
+            "defaultValue": "",
+            "source": ""
+          },
+          "keywordPath": "69",
+          "keywordSource": "internal",
+          "keywordMethod": "swipeByCoordinate",
+          "description": "",
+          "failureHandling": "STOP_ON_FAILURE",
+          "failureDescription": "",
+          "enable": true,
+          "captureImg": false
+        },
+        {
+          "uuid": "9feb886b-f311-46c5-be0a-b5871b03bf73",
+          "name": "For statement with index",
+          "platform": {
+            "type": "control",
+            "displayName": "",
+            "capUUID": ""
+          },
+          "objRepo": [],
+          "params": [
+            {
+              "name": "startIndex",
+              "type": "Integer",
+              "defaultValue": "1",
+              "source": ""
+            },
+            {
+              "name": "endIndex",
+              "type": "Integer",
+              "defaultValue": "2",
+              "source": ""
+            }
+          ],
+          "output": {
+            "name": "",
+            "type": "Integer",
+            "defaultValue": "",
+            "source": ""
+          },
+          "keywordPath": "28",
+          "keywordSource": "internal",
+          "keywordMethod": "",
+          "description": "",
+          "failureHandling": "STOP_ON_FAILURE",
+          "failureDescription": "",
+          "enable": true,
+          "executions": [
+            {
+              "uuid": "aa44ddf4-b678-4ab2-a922-e28a76ebb0dd",
+              "name": "Get Attribute Value",
+              "platform": {
+                "type": "Mobile",
+                "displayName": "",
+                "capUUID": ""
+              },
+              "objRepo": [
+                {
+                  "name": "target",
+                  "type": "Mobile UIObject",
+                  "defaultValue": "25431585-6be9-42ba-8e69-ba6fb65774b7",
+                  "source": ""
+                }
+              ],
+              "params": [
+                {
+                  "name": "attributeName",
+                  "type": "String",
+                  "defaultValue": "content-desc",
+                  "source": ""
+                },
+                {
+                  "name": "timeout",
+                  "type": "Integer",
+                  "defaultValue": "0",
+                  "source": ""
+                }
+              ],
+              "output": {
+                "name": "",
+                "type": "String",
+                "defaultValue": "",
+                "source": ""
+              },
+              "keywordPath": "74",
+              "keywordSource": "internal",
+              "keywordMethod": "getAttributeValue",
+              "description": "",
+              "failureHandling": "STOP_ON_FAILURE",
+              "failureDescription": "",
+              "enable": true,
+              "captureImg": false
+            }
+          ],
+          "captureImg": false
+        }
+      ],
+      "captureImg": false
+    },
+    {
+      "uuid": "8c5dde32-48e6-4625-b2dc-dfaa5002f144",
+      "name": "Verify Element Visible",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "a6e989eb-a9ef-435d-ace3-f2a4f54e8f67",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10000",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "87",
+      "keywordSource": "internal",
+      "keywordMethod": "verifyElementVisible",
+      "description": "",
       "failureDescription": "",
       "enable": true,
       "captureImg": false

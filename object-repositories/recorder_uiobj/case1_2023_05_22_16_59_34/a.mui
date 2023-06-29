@@ -1,0 +1,22 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Image",
+      "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAgCAIAAAAaMSbnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHXSURBVEhL7ZS5i8JQEIf3v44Hgoh4prawUMTGxkLxxGhhIeKBIFiI2iiiIt6a2t86o8hq8rJssFjyFSEzmcyXd+R9qZ/F8pmL5TMXy3c6nfjODAS+VColSVKpVOL4zwh8u93OZrNBqSgKwsvlMh6PO51Os9nsdruTyYTKjCOez+PxaLfboSwWi/P5HDc/qNVq+A6uFmFov0BJo8zn84vFYjgcLpdLXOPxOCldLpfBZRb7ptNpLBbbbrfPE/sAmkQigTzmYLVacVYbgW+9Xt8GIGHZcE8TW61W+fEdLCeV4bM4pYHA53a70aXf71M4Go2o76uy0Wggj3qONdDzoSlaRCIRjlXV5/PddN9UKhXO3gmHw8jX63WO36Hnm81meN/hcDy2XzKZRKbX69Fa5nI5ygPUoBJJ7GFOvUMwn+l0Gi2CwSCFm80G4TPlcpkeybKMMJPJUKiFwAdolrxe736/R4gTAHqMLxQK0Sjx/9G6IkOv6CD2Ab/fj3bo3m63z+czZ5+OAhx4wp1JGPIBzBv6Eh6PJxAI4BqNRg+HA42yUChwqS5GfQCts9ksbQrC6XQOBgMsKilff5JXfuHT4XEUtFotTmlgjg9gH2G4n/MZxPKZy//2qeoVVFq1fostVMEAAAAASUVORK5CYII\u003d",
+      "type": [],
+      "active": true
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "ea093c5c-5cfb-4862-a2e1-6f9a30bd8ad4"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "ea093c5c-5cfb-4862-a2e1-6f9a30bd8ad4"
+}

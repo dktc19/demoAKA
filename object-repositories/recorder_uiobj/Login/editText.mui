@@ -1,0 +1,26 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//*[@class\u003d\u0027android.widget.EditText\u0027 and @text\u003d\u0027`$.this.edit_text_element`\u0027]",
+      "type": [],
+      "active": true
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      },
+      "edit_text_element": {
+        "descendants": {},
+        "value": ""
+      }
+    },
+    "value": "f1af173d-7013-4fcb-b9c8-f67090856290"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "f1af173d-7013-4fcb-b9c8-f67090856290"
+}

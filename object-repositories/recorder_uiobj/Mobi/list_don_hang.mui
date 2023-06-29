@@ -1,0 +1,26 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[$.this.indexItem]/android.view.View/android.view.View/android.view.View[2]",
+      "type": [],
+      "active": true
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      },
+      "indexItem": {
+        "descendants": {},
+        "value": ""
+      }
+    },
+    "value": "25431585-6be9-42ba-8e69-ba6fb65774b7"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "25431585-6be9-42ba-8e69-ba6fb65774b7"
+}

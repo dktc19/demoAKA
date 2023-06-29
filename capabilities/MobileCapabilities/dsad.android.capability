@@ -3,7 +3,7 @@
   "driverCapabilities": {},
   "CAPABILITY": "android:androidOptions",
   "caps": {
-    "deviceName": "Pixel_2_API_33",
+    "deviceName": "emulator-5554",
     "platformName": "Android",
     "udid": "emulator-5554",
     "appPackage": "ftel.isc.mobisalevn",
@@ -11,6 +11,7 @@
     "deviceReadyTimeout": "60",
     "androidDeviceReadyTimeout": "60",
     "newCommandTimeout": "240",
-    "automationName": "UiAutomator2"
+    "automationName": "UiAutomator2",
+    "appWaitForLaunch": true
   }
 }

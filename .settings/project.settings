@@ -1,6 +1,21 @@
 {
-    "settings": {
-        "manager.projectId": ""
-    },
-    "runProfiles": []
+  "settings": {
+    "manager.projectId": "",
+    "project.path": "C:\\Users\\minhlh5\\demoAKA"
+  },
+  "runProfiles": [
+    {
+      "id": "android_minh",
+      "platformType": "Mobile",
+      "capability": {
+        "capUUID": "96ea8bb6-89e9-48b3-8f0b-c436e485321c"
+      },
+      "colorCode": "#52c41a",
+      "profile": {
+        "configCapability": {
+          "Browser": "android"
+        }
+      }
+    }
+  ]
 }
