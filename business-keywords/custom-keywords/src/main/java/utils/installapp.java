@@ -19,7 +19,7 @@ import com.fpt.ivs.at.core.driver.WebdriverSocketClient;
 public class installapp {
     
 
-public void install_apk(String fileURL){
+public void install_apk(String fileURL) throws InterruptedException{
     
     String directoryPath = System.getProperty("project.path") +  File.separator + "business-keywords" +  File.separator + "custom-keywords" +  File.separator + "src" +  File.separator + "main" +  File.separator + "java" +  File.separator + "resources" + File.separator;
     String saveFilePath = directoryPath + "intallapp.apk";
@@ -60,6 +60,7 @@ public void install_apk(String fileURL){
     System.out.println(">>>>>>>>>>>>>>>>> "+ cmd);
     runCmd(cmd);
    
+   Thread.sleep(5000);
 }
     
     public static void downloadFileFromURL(String fileURL, String saveFilePath) throws IOException {
