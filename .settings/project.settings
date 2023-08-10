@@ -25,7 +25,9 @@
       },
       "colorCode": "#eb2f96",
       "profile": {
-        "configCapability": {}
+        "configCapability": {
+          "installapp": "yes"
+        }
       }
     }
   ]
