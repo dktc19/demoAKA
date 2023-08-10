@@ -191,6 +191,31 @@
       "captureImg": false
     },
     {
+      "uuid": "a23cec4a-ea27-4b6e-a05c-496f212929cd",
+      "name": "Hide Keyboard",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "51",
+      "keywordSource": "internal",
+      "keywordMethod": "hideKeyboard",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
       "uuid": "4a06795d-6db3-4e35-b216-dccc169f4676",
       "name": "Click",
       "platform": {
