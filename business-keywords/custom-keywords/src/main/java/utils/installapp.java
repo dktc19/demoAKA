@@ -22,7 +22,7 @@ public class installapp {
 public void install_apk(String fileURL){
     
     String directoryPath = System.getProperty("project.path") +  File.separator + "business-keywords" +  File.separator + "custom-keywords" +  File.separator + "src" +  File.separator + "main" +  File.separator + "java" +  File.separator + "resources" + File.separator;
-    String saveFilePath = directoryPath + File.separator + "intallapp.apk";
+    String saveFilePath = directoryPath + "intallapp.apk";
     Boolean hasAPK = false;
     File directory = new File(directoryPath);
     

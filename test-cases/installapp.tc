@@ -20,7 +20,8 @@
     "type": "Mobile",
     "displayName": "Mobile"
   },
-  "setUpList": [
+  "setUpList": [],
+  "stepList": [
     {
       "uuid": "cc0057b1-da3d-410d-9815-2ebee03e9514",
       "name": "install_apk: void",
@@ -53,7 +54,6 @@
       "captureImg": false
     }
   ],
-  "stepList": [],
   "tearDownList": [],
   "managerId": "",
   "uuid": "d992d628-47d7-47a0-83f5-e52d40a29f4c"
