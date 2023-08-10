@@ -1,0 +1,16 @@
+{
+  "uuid": "0a5c3b07-bfb3-44e2-87a8-73599a9d3f5d",
+  "driverCapabilities": {},
+  "CAPABILITY": "android:androidOptions",
+  "caps": {
+    "deviceName": "emulator-5554",
+    "platformName": "Android",
+    "udid": "emulator-5554",
+    "appPackage": "",
+    "appActivity": "",
+    "deviceReadyTimeout": "60",
+    "androidDeviceReadyTimeout": "60",
+    "newCommandTimeout": "240",
+    "automationName": "UiAutomator2"
+  }
+}

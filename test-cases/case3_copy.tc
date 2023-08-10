@@ -1,0 +1,493 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "62aa785f-204d-4a53-ab64-bacfce9fd872"
+  },
+  "platform": {
+    "type": "Mobile",
+    "displayName": "Mobile"
+  },
+  "setUpList": [],
+  "stepList": [
+    {
+      "uuid": "48e44d7a-ac51-4cef-815f-9728f9e1312e",
+      "name": "Click",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "c7be4bee-7dc8-4ded-aa6c-13e32f98dfcc",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "59",
+      "keywordSource": "internal",
+      "keywordMethod": "click",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "002cfaa6-c043-49eb-8c12-089c226a15db",
+      "name": "getColorInImages: void",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "341a92a9-9ccb-46ed-8e20-86417e250513",
+      "keywordSource": "custom",
+      "keywordMethod": "getColorInImages",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "71cb7a3a-4ab5-4e8e-ae50-105f2de4694a",
+      "name": "Verify Element Attribute Value",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "81a315cf-2c33-4c3b-ae79-33c91d119875",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "attributeName",
+          "type": "String",
+          "defaultValue": "content-desc",
+          "source": ""
+        },
+        {
+          "name": "expectedValue",
+          "type": "String",
+          "defaultValue": "Vui lòng nhập thông tin đăng nhập.",
+          "source": ""
+        },
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "80",
+      "keywordSource": "internal",
+      "keywordMethod": "verifyElementAttributeValue",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "150a70b1-fc97-4576-a668-4df5745eec86",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "155",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "390",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "93",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "381",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "486a7be0-ce4c-43e4-9bdb-69d75094b88e",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "182",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "398",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "180",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "400",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "c6d4ce15-0ed5-45d3-b5a5-78e8c15eb087",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "134",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "437",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "126",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "434",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "68a7cd3b-b267-43af-b8e3-d74beb8d7b85",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "179",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "687",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "207",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "405",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "e05b105a-571c-401e-bd03-ef10c66eab06",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "169",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "125",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "146",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "746",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "05558d36-fc6a-4f4f-8ace-d7e904a1b0f9",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "243",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "622",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "243",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "622",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    },
+    {
+      "uuid": "b4269a2f-8781-4d8b-a337-f583c65e86cc",
+      "name": "Swipe By Coordinate",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "xStart",
+          "type": "Integer",
+          "defaultValue": "302",
+          "source": ""
+        },
+        {
+          "name": "yStart",
+          "type": "Integer",
+          "defaultValue": "648",
+          "source": ""
+        },
+        {
+          "name": "xEnd",
+          "type": "Integer",
+          "defaultValue": "311",
+          "source": ""
+        },
+        {
+          "name": "yEnd",
+          "type": "Integer",
+          "defaultValue": "508",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "69",
+      "keywordSource": "internal",
+      "keywordMethod": "swipeByCoordinate",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
+      "captureImg": false
+    }
+  ],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "62aa785f-204d-4a53-ab64-bacfce9fd872"
+}

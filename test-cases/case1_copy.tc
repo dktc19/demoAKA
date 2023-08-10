@@ -138,7 +138,7 @@
         {
           "name": "Repo1",
           "type": "UIObject",
-          "defaultValue": "ea093c5c-5cfb-4862-a2e1-6f9a30bd8ad4",
+          "defaultValue": "2e45a5ef-ad1d-4c36-a276-f8af0ca21cfa",
           "source": ""
         }
       ],
@@ -155,6 +155,44 @@
       "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",
       "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "b4e66b34-1605-4b04-9944-a1bda81d5d5a",
+      "name": "Tap With Coordinates",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "x",
+          "type": "Integer",
+          "defaultValue": "0",
+          "source": ""
+        },
+        {
+          "name": "y",
+          "type": "Integer",
+          "defaultValue": "0",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "63",
+      "keywordSource": "internal",
+      "keywordMethod": "tapWithCoordinates",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": false,
       "captureImg": false
     },
     {

@@ -1,0 +1,60 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "d992d628-47d7-47a0-83f5-e52d40a29f4c"
+  },
+  "platform": {
+    "type": "Mobile",
+    "displayName": "Mobile"
+  },
+  "setUpList": [
+    {
+      "uuid": "cc0057b1-da3d-410d-9815-2ebee03e9514",
+      "name": "install_apk: void",
+      "platform": {
+        "type": "core",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "url",
+          "type": "String",
+          "defaultValue": "https://hi-static.fpt.vn/sys/mobisalevn/stag/app/android-3624/mbs.apk",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": ""
+      },
+      "keywordPath": "d5f56f5d-76f9-4d20-b3ca-226c9207cd1e",
+      "keywordSource": "custom",
+      "keywordMethod": "install_apk",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
+  "stepList": [],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "d992d628-47d7-47a0-83f5-e52d40a29f4c"
+}

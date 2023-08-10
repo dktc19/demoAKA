@@ -16,6 +16,17 @@
           "OS": "android"
         }
       }
+    },
+    {
+      "id": "install_app",
+      "platformType": "Mobile",
+      "capability": {
+        "capUUID": "0a5c3b07-bfb3-44e2-87a8-73599a9d3f5d"
+      },
+      "colorCode": "#eb2f96",
+      "profile": {
+        "configCapability": {}
+      }
     }
   ]
 }
