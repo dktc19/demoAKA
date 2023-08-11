@@ -1,0 +1,54 @@
+{
+  "name": "Custom Keywords",
+  "packageId": "custom",
+  "keywordType": "custom",
+  "version": "1.0.0",
+  "disabled": false,
+  "keywordCatalogs": [
+    {
+      "id": "1",
+      "name": "Web Keywords",
+      "platform": "Web",
+      "source": "internal",
+      "keywords": [
+        {"uuid":"cb816fab-f550-4cc4-9b02-1cc4805469a0","name":"test: String","platform":{"type":"Web"},"objRepo":[],"params":[],"output":{"name":"","type":"String","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"test","description":"---des---","failureDescription":"","enable":true,"captureImg":false}
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mobile Keywords",
+      "platform": "Mobile",
+      "source": "internal",
+      "keywords": [
+        {"uuid":"62fe8288-9b7a-431f-bb98-1557e91e6b2a","name":"Click OCR By Text","platform":{"type":"Mobile"},"objRepo":[],"params":[{"name":"Param1","type":"String","defaultValue":"","source":""},{"name":"Param2","type":"Integer","defaultValue":"0","source":""},{"name":"Param3","type":"Integer","defaultValue":"0","source":""},{"name":"Param4","type":"Integer","defaultValue":"0","source":""}],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"utils.TesseractOcrUtil","keywordSource":"custom","keywordMethod":"ClickOCRByText","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"3e2a37c4-4c86-4f42-9eb3-e451cda5cff6","name":"Click OCR By White Text","platform":{"type":"Mobile"},"objRepo":[],"params":[{"name":"Param1","type":"String","defaultValue":"","source":""},{"name":"Param2","type":"Integer","defaultValue":"0","source":""},{"name":"Param3","type":"Integer","defaultValue":"0","source":""},{"name":"Param4","type":"Integer","defaultValue":"0","source":""}],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"utils.TesseractOcrUtil","keywordSource":"custom","keywordMethod":"ClickOCRByWhiteText","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"47555f6c-a424-4ae3-8570-f4725edbe35f","name":"OCR Extract Text From Image ","platform":{"type":"Mobile"},"objRepo":[],"params":[],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"utils.TesseractOcrUtil","keywordSource":"custom","keywordMethod":"extractTextFromImage","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"341a92a9-9ccb-46ed-8e20-86417e250513","name":"getColorInImages: void","platform":{"type":"Mobile"},"objRepo":[],"params":[],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"getColorInImages","description":"---des---","failureDescription":"","enable":true,"captureImg":false}
+      ]
+    },
+    {
+      "id": "7fc4c9cb-f673-4082-b3d1-8677b6ab94e8",
+      "name": "Custom Keywords",
+      "platform": "E2E",
+      "source": "custom",
+      "keywords": [
+        {"uuid":"3f848417-6177-4378-bd90-61a7a6ba5591","name":"printall: void","platform":{"type":"Random"},"objRepo":[],"params":[],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"printall","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"cacf5c5c-d8b1-42b3-91ea-550813fc1702","name":"getPageSource: void","platform":{"type":"Random"},"objRepo":[],"params":[],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"getPageSource","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"224e73f9-52d4-490b-a990-16692975d0b5","name":"getPageSource: String","platform":{"type":"Random"},"objRepo":[],"params":[],"output":{"name":"","type":"String","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"getPageSource","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"dd170470-c5f2-49a0-be29-7a830d059f78","name":"printValue: void","platform":{"type":"Random"},"objRepo":[],"params":[{"name":"Param1","type":"String","defaultValue":"","source":""}],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"printValue","description":"---des---","failureDescription":"","enable":true,"captureImg":false},
+        {"uuid":"9890766d-0b92-4943-8881-7325a3d262ee","name":"getElementWithImage: void","platform":{"type":"Random"},"objRepo":[{"name":"Repo1","type":"UIObject","defaultValue":"","source":""}],"params":[],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"Hello","keywordSource":"custom","keywordMethod":"getElementWithImage","description":"---des---","failureDescription":"","enable":true,"captureImg":false}
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Core Keywords",
+      "platform": "core",
+      "source": "internal",
+      "keywords": [
+        {"uuid":"d5f56f5d-76f9-4d20-b3ca-226c9207cd1e","name":"install_apk: void","platform":{"type":"core"},"objRepo":[],"params":[{"name":"url","type":"String","defaultValue":"","source":""}],"output":{"name":"","type":"void","defaultValue":""},"keywordPath":"utils.installapp","keywordSource":"custom","keywordMethod":"install_apk","description":"---des---","failureDescription":"","enable":true,"captureImg":false}
+      ]
+    }
+  ],
+  "customCatalogs": [],
+  "afterTcKws": []
+}
